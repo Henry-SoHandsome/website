@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-HK" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>瑞盈工程廣告裝飾工程公司 | 專業廣告與裝飾服務</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0f172a',
+                            primary: '#2563eb',
+                            light: '#f8fafc'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased relative">
+
+    <header class="bg-brand-dark text-white fixed w-full z-40 shadow-md transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 font-bold text-2xl tracking-wider">
+                    <a href="#" class="hover:text-gray-300 transition-colors">瑞盈工程</a>
+                </div>
+                
+                <nav class="hidden md:flex space-x-8 items-center">
+                    <a href="#about" class="text-gray-300 hover:text-white font-medium transition-colors">關於我們</a>
+                    <a href="#services" class="text-gray-300 hover:text-white font-medium transition-colors">服務範圍</a>
+                    <a href="#portfolio" class="text-gray-300 hover:text-white font-medium transition-colors">工程案例</a>
+                    <a href="https://wa.me/85297177076" target="_blank" rel="noopener noreferrer" class="bg-brand-primary hover:bg-blue-600 text-white px-5 py-2 rounded-md font-medium transition-colors">聯絡我們</a>
+                </nav>
+
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-300 hover:text-white focus:outline-none p-2" aria-label="打開選單">
+                        <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path id="menu-icon-open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            <path id="menu-icon-close" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-900 border-t border-gray-800 shadow-xl absolute w-full">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <a href="#about" class="block px-3 py-3 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">關於我們</a>
+                <a href="#services" class="block px-3 py-3 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">服務範圍</a>
+                <a href="#portfolio" class="block px-3 py-3 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">工程案例</a>
+                <a href="https://wa.me/85297177076" target="_blank" rel="noopener noreferrer" class="block px-3 py-3 mt-4 rounded-md text-base font-medium text-center text-white bg-brand-primary hover:bg-blue-600">聯絡我們</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative bg-brand-dark pt-32 pb-24 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute right-0 top-0 w-96 h-96 bg-brand-primary rounded-full filter blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
+        </div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-6 leading-tight">
+                瑞盈工程廣告裝飾工程公司
+            </h1>
+            <p class="mt-4 text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-10 leading-relaxed">
+                專注於高質素廣告招牌、亞加力製品與室內外裝飾工程。<br class="hidden md:block">以精準工藝與創新視覺，點亮您的品牌價值。
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4 mb-10">
+                <a href="#services" class="inline-flex justify-center items-center bg-brand-primary text-white font-bold py-4 px-8 rounded-lg shadow-lg hover:bg-blue-600 transition-all duration-200 hover:-translate-y-1">
+                    瀏覽服務項目
+                </a>
+                <a href="#portfolio" class="inline-flex justify-center items-center bg-transparent border-2 border-gray-400 text-white font-bold py-4 px-8 rounded-lg hover:border-white hover:bg-gray-800 transition-all duration-200">
+                    查看過往案例
+                </a>
+            </div>
+
+            <div class="flex justify-center space-x-6">
+                <a href="https://www.facebook.com/waiman.chan.5245/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors duration-200" aria-label="Facebook">
+                    <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/ying343563453/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors duration-200" aria-label="Instagram">
+                    <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">全面廣告與裝飾服務</h2>
+                <div class="w-24 h-1 bg-brand-primary mx-auto rounded"></div>
+                <p class="mt-6 text-gray-600 max-w-2xl mx-auto text-lg">我們提供從設計、製作到安裝的一站式專業解決方案，滿足各行各業的視覺展示需求。</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition-shadow duration-300 group">
+                    <div class="w-14 h-14 bg-blue-100 text-brand-primary rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">亞加力與陳列設備</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start"><svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-gray-600">亞加力陳列架 / 飾櫃</span></li>
+                        <li class="flex items-start"><svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-gray-600">亞加力招牌 / 獎座</span></li>
+                        <li class="flex items-start"><svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-gray-600">客製化商品陳列架</span></li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition-shadow duration-300 group">
+                    <div class="w-14 h-14 bg-blue-100 text-brand-primary rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">發光招牌與立體字</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start"><svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-gray-600">大型 LED 招牌 / 燈箱</span></li>
+                        <li class="flex items-start"><svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-gray-600">精緻 LED 燈座 / 霓虹光管</span></li>
+                        <li class="flex items-start"><svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-gray-600">各類材質廣告立體字</span></li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition-shadow duration-300 group">
+                    <div class="w-14 h-14 bg-blue-100 text-brand-primary rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">專業印刷與特殊標示</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start"><svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-gray-600">UV 數碼打印 / 絲印</span></li>
+                        <li class="flex items-start"><svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-gray-600">噴畫貼紙 / 玻璃磨砂貼膜</span></li>
+                        <li class="flex items-start"><svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-gray-600">金屬蝕刻指示牌 / 圍板裱貼</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">過往工程案例</h2>
+                <div class="w-24 h-1 bg-brand-primary mx-auto rounded"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                <div class="group relative overflow-hidden rounded-xl aspect-[4/3] bg-gray-300 cursor-pointer shadow-sm hover:shadow-xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&q=80&w=800" alt="案例圖片" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="group relative overflow-hidden rounded-xl aspect-[4/3] bg-gray-300 cursor-pointer shadow-sm hover:shadow-xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=800" alt="案例圖片" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="group relative overflow-hidden rounded-xl aspect-[4/3] bg-gray-300 cursor-pointer shadow-sm hover:shadow-xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&q=80&w=800" alt="案例圖片" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="group relative overflow-hidden rounded-xl aspect-[4/3] bg-gray-300 cursor-pointer shadow-sm hover:shadow-xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&q=80&w=800" alt="案例圖片" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="group relative overflow-hidden rounded-xl aspect-[4/3] bg-gray-300 cursor-pointer shadow-sm hover:shadow-xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1542744094-24638ea0b3b5?auto=format&fit=crop&q=80&w=800" alt="案例圖片" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="group relative overflow-hidden rounded-xl aspect-[4/3] bg-gray-300 cursor-pointer shadow-sm hover:shadow-xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1626014903706-5ee903a429b6?auto=format&fit=crop&q=80&w=800" alt="案例圖片" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="group relative overflow-hidden rounded-xl aspect-[4/3] bg-gray-300 cursor-pointer shadow-sm hover:shadow-xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?auto=format&fit=crop&q=80&w=800" alt="案例圖片" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="group relative overflow-hidden rounded-xl aspect-[4/3] bg-gray-300 cursor-pointer shadow-sm hover:shadow-xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1558442074-3c19857bc1dc?auto=format&fit=crop&q=80&w=800" alt="案例圖片" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="group relative overflow-hidden rounded-xl aspect-[4/3] bg-gray-300 cursor-pointer shadow-sm hover:shadow-xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1563986768494-4dee2763ff0f?auto=format&fit=crop&q=80&w=800" alt="案例圖片" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-brand-dark text-gray-400 py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-center md:text-left">
+                <span class="text-white font-bold text-xl block mb-2 tracking-wider">瑞盈工程廣告裝飾</span>
+                <p class="text-sm">專業鑄就品質，視覺成就品牌。</p>
+            </div>
+            
+            <div class="flex space-x-6 items-center">
+                <a href="https://www.facebook.com/waiman.chan.5245/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors duration-200" aria-label="Facebook">
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/ying343563453/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors duration-200" aria-label="Instagram">
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="text-sm text-center md:text-right">
+                &copy; 2026 瑞盈工程廣告裝飾工程公司. 保留一切權利。
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/85297177076" target="_blank" rel="noopener noreferrer" 
+       class="fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-xl hover:bg-[#128C7E] hover:scale-110 transition-all duration-300 z-50 flex items-center justify-center group"
+       aria-label="聯絡我們 (WhatsApp)">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12.031 0C5.385 0 0 5.385 0 12.032c0 2.13.55 4.195 1.597 6.012L.15 24l6.126-1.606a12.012 12.012 0 005.755 1.46h.004c6.645 0 12.03-5.385 12.03-12.033 0-3.22-1.254-6.248-3.532-8.527A11.97 11.97 0 0012.031 0zm0 21.84h-.003a9.988 9.988 0 01-5.093-1.385l-.366-.217-3.784.992.992-3.71-.238-.378A9.985 9.985 0 012.02 12.032c0-5.523 4.493-10.016 10.012-10.016 2.68 0 5.197 1.045 7.094 2.943 1.896 1.897 2.942 4.414 2.942 7.095 0 5.522-4.494 10.016-10.016 10.016zm5.498-7.514c-.302-.15-1.785-.882-2.062-.982-.277-.1-.478-.15-.68.15-.202.302-.781.982-.958 1.182-.177.201-.354.226-.656.076-.301-.15-1.272-.469-2.423-1.496-.895-.799-1.502-1.786-1.679-2.087-.177-.301-.019-.464.132-.614.136-.136.301-.353.453-.529.151-.177.202-.302.302-.503.1-.202.05-.378-.025-.529-.076-.151-.68-1.638-.931-2.242-.244-.59-.493-.51-.68-.519-.176-.01-.378-.01-.579-.01-.202 0-.528.075-.805.377-.277.302-1.057 1.033-1.057 2.518 0 1.485 1.082 2.92 1.233 3.12.15.2 2.128 3.25 5.155 4.558.72.311 1.282.497 1.72.637.722.23 1.38.197 1.897.12.58-.087 1.785-.73 2.037-1.434.252-.704.252-1.308.176-1.434-.076-.126-.277-.202-.579-.353z" />
+        </svg>
+        <span class="absolute right-16 bg-gray-800 text-white text-sm px-3 py-1.5 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap">
+            WhatsApp 聯絡我們
+        </span>
+    </a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const btn = document.getElementById('mobile-menu-btn');
+            const menu = document.getElementById('mobile-menu');
+            const iconOpen = document.getElementById('menu-icon-open');
+            const iconClose = document.getElementById('menu-icon-close');
+
+            btn.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+                iconOpen.classList.toggle('hidden');
+                iconClose.classList.toggle('hidden');
+            });
+
+            const mobileLinks = menu.querySelectorAll('a');
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    menu.classList.add('hidden');
+                    iconOpen.classList.remove('hidden');
+                    iconClose.classList.add('hidden');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
