@@ -59,7 +59,7 @@
                     </a>
                 </div>
                 <nav class="hidden md:flex space-x-10 items-center">
-                    <a href="#" class="text-white/70 hover:text-white font-medium transition-colors">關於我們</a>
+                    <a href="#about" class="text-white/70 hover:text-white font-medium transition-colors">關於我們</a>
                     <a href="#services" class="text-white/70 hover:text-white font-medium transition-colors">服務範圍</a>
                     <a href="#portfolio" class="text-white/70 hover:text-white font-medium transition-colors">工程案例</a>
                     <a href="#faq" class="text-white/70 hover:text-white font-medium transition-colors">常見問題</a>
@@ -77,7 +77,7 @@
         </div>
         <div id="mobile-menu" class="hidden fixed inset-0 top-[88px] w-full bg-brand-dark/98 backdrop-blur-xl z-40">
             <div class="px-6 py-10 space-y-6">
-                <a href="#" class="block text-2xl font-bold text-gray-200 border-b border-white/5 pb-4">關於我們</a>
+                <a href="#about" class="block text-2xl font-bold text-gray-200 border-b border-white/5 pb-4">關於我們</a>
                 <a href="#services" class="block text-2xl font-bold text-gray-200 border-b border-white/5 pb-4">服務範圍</a>
                 <a href="#portfolio" class="block text-2xl font-bold text-gray-200 border-b border-white/5 pb-4">工程案例</a>
                 <a href="https://wa.me/85297177076" class="flex items-center justify-center bg-brand-primary text-white font-bold py-5 rounded-2xl text-xl">WhatsApp 諮詢</a>
@@ -114,6 +114,43 @@
         </div>
     </section>
 
+    <!-- 關於我們 -->
+    <section id="about" class="py-32 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <!-- 文字內容 -->
+                <div class="flex-1 reveal">
+                    <span class="text-blue-600 font-bold tracking-widest mb-4 block uppercase text-sm">關於瑞盈</span>
+                    <h2 class="text-4xl md:text-5xl font-black text-slate-900 mb-8 leading-tight">
+                        二十年匠心工藝<br>打造專業商業視覺空間
+                    </h2>
+                    <p class="text-lg text-gray-500 mb-10 leading-relaxed">
+                        瑞盈廣告裝飾工程公司憑藉多年行業經驗，致力於提供多元化、專業化的廣告與裝修解決方案。從精緻的店鋪亞加力展示架，到大型樓宇 LED 戶外招牌，我們均以最嚴謹的態度與精湛的工藝對待每一個細節。
+                    </p>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="bg-brand-surface p-8 rounded-2xl border-l-4 border-brand-primary shadow-sm">
+                            <div class="text-4xl font-black text-slate-900 mb-1">500+</div>
+                            <div class="text-sm text-gray-400 font-bold uppercase tracking-wider">完工案例</div>
+                        </div>
+                        <div class="bg-brand-surface p-8 rounded-2xl border-l-4 border-brand-primary shadow-sm">
+                            <div class="text-4xl font-black text-slate-900 mb-1">100%</div>
+                            <div class="text-sm text-gray-400 font-bold uppercase tracking-wider">優質選材</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 圖片展示 -->
+                <div class="flex-1 relative reveal delay-200">
+                    <div class="absolute -bottom-6 -right-6 w-full h-full border-2 border-brand-primary rounded-[2.5rem] z-0 hidden lg:block"></div>
+                    <div class="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl bg-gray-100 aspect-[4/3] lg:aspect-auto">
+                        <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop" alt="瑞盈專業辦公空間" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- 服務範圍 -->
     <section id="services" class="py-32 bg-brand-surface">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -123,6 +160,7 @@
                 <div class="w-24 h-2 bg-brand-primary mx-auto rounded-full"></div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- 亞加力精工 -->
                 <div class="group bg-white p-10 rounded-[2.5rem] shadow-sm border border-gray-100 reveal">
                     <div class="w-16 h-16 bg-blue-50 text-brand-primary rounded-2xl flex items-center justify-center mb-8 group-hover:bg-brand-primary group-hover:text-white transition-colors">
                         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
@@ -130,13 +168,15 @@
                     <h4 class="text-2xl font-black mb-4">亞加力精工</h4>
                     <p class="text-gray-500 leading-relaxed">提供高透明度雷射切割、絲印與飾櫃工程，滿足精品陳列需求。</p>
                 </div>
-                <div class="group bg-slate-900 p-10 rounded-[2.5rem] shadow-2xl reveal delay-100">
-                    <div class="w-16 h-16 bg-blue-600 text-white rounded-2xl flex items-center justify-center mb-8 group-hover:bg-white group-hover:text-brand-primary transition-colors">
+                <!-- LED 招牌 -->
+                <div class="group bg-white p-10 rounded-[2.5rem] shadow-sm border border-gray-100 reveal delay-100">
+                    <div class="w-16 h-16 bg-blue-50 text-brand-primary rounded-2xl flex items-center justify-center mb-8 group-hover:bg-brand-primary group-hover:text-white transition-colors">
                         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                     </div>
-                    <h4 class="text-2xl font-black text-white mb-4">LED 招牌</h4>
-                    <p class="text-gray-400 leading-relaxed">背發光、超薄燈箱、動態屏，為企業晝夜打造醒目標誌。</p>
+                    <h4 class="text-2xl font-black mb-4">LED 招牌</h4>
+                    <p class="text-gray-500 leading-relaxed">背發光、超薄燈箱、動態屏，為企業晝夜打造醒目標誌。</p>
                 </div>
+                <!-- 噴畫貼膜 -->
                 <div class="group bg-white p-10 rounded-[2.5rem] shadow-sm border border-gray-100 reveal delay-200">
                     <div class="w-16 h-16 bg-blue-50 text-brand-primary rounded-2xl flex items-center justify-center mb-8 group-hover:bg-brand-primary group-hover:text-white transition-colors">
                         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
@@ -201,7 +241,7 @@
         </div>
     </section>
 
-    <!-- 頁腳 (左中右平排顯示) -->
+    <!-- 頁腳 -->
     <footer class="bg-slate-950 text-gray-400 py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row items-center justify-between gap-8">
